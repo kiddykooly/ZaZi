@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Trang Web Đấu Giá</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <!-- Material Design Lite -->
+        @Styles.Render("~/Content/material")
+        <!-- Material Design icon font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta name="viewport" content="width=device-width" />
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/material")
+    </head>
+    <body style="font-family:'Open Sans'">
+        <div class="navbar-fixed">
+            <nav style="height: 48px; line-height: 48px; background-color: rgba(0, 0, 0, .4); ">
+                <div class="nav-wrapper valign-wrapper">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="hide-on-med-and-down valign" style="margin:auto">
+                        <li><a href="@Url.Action("Index", "Home")"><i class="tiny material-icons" style="margin-top:-8px;">mood</i></a></li>
+                        <li><a href="@Url.Action("Index", "Admin")">Recent Auction</a></li>
+                        <li><a class='dropdown-button' href='#' data-activates='dropdown1'>Products</a></li> 
+                        <li><a href="@Url.Action("About", "About")">About ZaZi Team</a></li>
+                    </ul>
+                    <ul id='dropdown1' class='dropdown-content'>
+                        @foreach (var item in ZaZi.MvcApplication.ProductList)
+                        {
+                            <li><a href="~/product?id=@item.Id">@item.Name</a></li>
+                            <li class="divider"></li>
+                        }
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="@Url.Action("Index", "Home")"><i class="tiny material-icons" style="margin-top:-8px;">mood</i></a></li>
+                        <li><a href="@Url.Action("Index", "Admin")">Recent Auction</a></li>
+                        <li><a href="@Url.Action("About", "About")">About ZaZi Team</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        @RenderBody()
+    </body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $(".button-collapse").sideNav();
+
+        $('.dropdown-button').dropdown({
+            inDuration: 300,
+            outDuration: 225,
+            constrain_width: false, // Does not change width of dropdown to that of the activator
+            hover: false, // Activate on hover
+            gutter: 0, // Spacing from edge
+            belowOrigin: true, // Displays dropdown below the button
+            alignment: 'left' // Displays dropdown with edge aligned to the left of button
+        }
+  );
+    });
+</script>
+
+<style>
+
+    #dropdown1 {
+        background-color: rgba(0, 0, 0, .4);
+    }
+    
+        #dropdown1 li {
+            margin: 0;
+        }
+
+            #dropdown1 li a {
+                color: white;
+            } 
+    
+    ul li {
+        margin: 0 2rem 0 2rem;
+    }
+
+    body {
+        background-color: #eeeeee;
+    }
+</style>

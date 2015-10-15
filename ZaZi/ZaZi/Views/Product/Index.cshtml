@@ -1,0 +1,219 @@
+﻿@model ProductModel
+@using ZaZi.Models;
+@{
+    ViewBag.Title = Model.Name;
+    var proper = Model.property;
+}
+
+<div class="row" style="font-family:'Open Sans'">
+    <div class="col s12 m6 offset-m2 l6 offset-l1">
+        <div class="row row-margin">
+            <h3 style="font-weight:lighter; font-family:'Open Sans'">@Model.Name</h3>
+            <ul class="rating">
+                @for (int i = 0; i < Model.Rating; i++)
+                {
+                    <li><i class="material-icons">star</i></li>
+                }
+                @for (int i = 0; i < 5 - Model.Rating; i++)
+                {
+                    <li><i class="material-icons">star_border</i></li>
+                }
+            </ul>
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="@Model.pictures[0]"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h3>This is our big Tagline!</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="@Model.pictures[1]"> <!-- random image -->
+                        <div class="caption left-align">
+                            <h3>Left Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="@Model.pictures[2]"> <!-- random image -->
+                        <div class="caption right-align">
+                            <h3>Right Aligned Caption</h3>
+                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row divider" style="margin-bottom:50px;"></div>
+        <div class="row row-margin">
+            <h4>Thông số kĩ thuật</h4>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-content">
+                    <table class="bordered responsive-table highlight">
+                        <tbody>
+                            @* Thông số cơ bản *@
+                            <tr class="header">
+                                <td>Thông số cơ bản</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Màn hình:</td>
+                                <td>@proper.ScreenSize inch (@proper.Resolution pixels)</td>
+                            </tr>
+                            <tr>
+                                <td>Camera:</td>
+                                <td>Chính: @proper.BehindCamera MP, Phụ: @proper.FrontCamera MP</td>
+                            </tr>
+                            <tr>
+                                <td>Bộ nhớ trong:</td>
+                                <td>@proper.Memory GB</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành:</td>
+                                <td>@proper.OS</td>
+                            </tr>
+                            <tr>
+                                <td>Chipset:</td>
+                                <td>@proper.CPU</td>
+                            </tr>
+                            @* Màn hình *@
+                            <tr class="header">
+                                <td>Màn hình</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Chuẩn màn hình:</td>
+                                <td>@proper.ScreenQuality</td>
+                            </tr>
+                            <tr>
+                                <td>Độ phân giải màn hình:</td>
+                                <td>@proper.Resolution pixels</td>
+                            </tr>
+                            <tr>
+                                <td>Kích thường màn hình:</td>
+                                <td>@proper.ScreenSize inch</td>
+                            </tr>
+                            @* Chụp hình & Quay phim *@
+                            <tr class="header">
+                                <td>Chụp hình & Quay phim</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau:</td>
+                                <td>@proper.BehindCamera MP</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước:</td>
+                                <td>@proper.FrontCamera MP</td>
+                            </tr>
+                            @* Cấu hình phần cứng *@
+                            <tr class="header">
+                                <td>Cấu hình phần cứng</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Chipset:</td>
+                                <td>@proper.CPU</td>
+                            </tr>
+                            <tr>
+                                <td>RAM:</td>
+                                <td>@proper.RAM GB</td>
+                            </tr>
+                            <tr>
+                                <td>Chip đồ họa (GPU):</td>
+                                <td>@proper.GPU</td>
+                            </tr>
+                            @* Bộ nhớ lưu trữ *@
+                            <tr class="header">
+                                <td>Bộ nhớ lưu trữ</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Danh bạ lưu trữ:</td>
+                                <td>Không giới hạn</td>
+                            </tr>
+                            <tr>
+                                <td>Bộ nhớ trong:</td>
+                                <td>@proper.Memory GB</td>
+                            </tr>
+                            <tr>
+                                <td>Thẻ nhớ ngoài:</td>
+                                <td>@proper.ExternalMemory</td>
+                            </tr>
+                            @* Thông tin pin *@
+                            <tr class="header">
+                                <td>Thông tin pin</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng pin:</td>
+                                <td>@proper.Battery mAh</td>
+                            </tr>
+                            @* Kết nối & Cổng giao tiếp *@
+                            <tr class="header">
+                                <td>Kết nối & Cổng giao tiếp</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Hỗ trợ SIM:</td>
+                                <td>@proper.SimType</td>
+                            </tr>
+                            @* Bảo hành *@
+                            <tr class="header">
+                                <td>Bảo hành</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Thời gian bảo hành:</td>
+                                <td>@proper.WarrantyTime tháng</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .slides li {
+        margin: 0;
+    } 
+
+    .rating li {
+        list-style: none;
+        display: inline;
+        margin: 0;
+    }
+
+        .rating li i {
+            color: #ffab00;
+        }
+
+    .row-margin {
+        margin-bottom: 0px;
+    }
+
+    .header {
+        background-color: #00c853;
+        color: white;
+        font-weight: bold;
+    }
+
+        .header:hover {
+            background-color: #00e676 !important;
+        }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('.slider').slider({
+            interval : 2000
+        });
+    });
+</script>

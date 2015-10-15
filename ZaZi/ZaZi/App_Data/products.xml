@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product>
+    <id>0</id>
+    <name>Apple iPhone 6 Gold</name>
+    <start-price>500</start-price>
+    <current-price>540</current-price>
+    <start-date>05-10-2015 11:00:00 PM</start-date>
+    <end-date>10-10-2015 11:00:00 PM</end-date>
+    <close-data>10-10-2015 11:00:00 PM</close-data>
+    <rating>5</rating>
+    <bids>3</bids>
+    <property>
+      <screen-size>4.7</screen-size>
+      <resolution>1334 x 750</resolution>
+      <screen-quality>HD</screen-quality>
+      <ram>1</ram>
+      <cpu>Apple A8</cpu>
+      <gpu>PowerVR GX6450</gpu>
+      <memory>16</memory>
+      <external-memory>0</external-memory>
+      <brand>Apple</brand>
+      <front-camera>1.2</front-camera>
+      <behind-camera>8.0</behind-camera>
+      <os>iOS 8.0</os>
+      <battery>1810</battery>
+      <sim-type>Nano</sim-type>
+      <warranty-time>12</warranty-time>
+    </property>
+    <pictures>
+      <picture>http://adsark.com/adpics/555cf30e92abf32eb9cd1e2aa.jpg</picture>
+      <picture>http://cdn.slashgear.com/wp-content/uploads/2014/09/goldgenie-iphone-6-1.jpg</picture>
+      <picture>http://media.vietq.vn/files/dinhthuy/article-2708965-20142E0400000578-724_634x310.jpg</picture>
+    </pictures>
+    <clear>0</clear>
+  </product>
+  <product>
+    <id>1</id>
+    <name>Apple iPhone 6S Black Gold</name>
+    <start-price>800</start-price>
+    <current-price>850</current-price>
+    <start-date>10-10-2015 11:00:00 PM</start-date>
+    <end-date>15-10-2015 11:00:00 PM</end-date>
+    <close-data>15-10-2015 11:00:00 PM</close-data>
+    <rating>4</rating>
+    <bids>5</bids>
+    <property>
+      <screen-size>4.7</screen-size>
+      <resolution>1334 x 750</resolution>
+      <screen-quality>HD</screen-quality>
+      <ram>2</ram>
+      <cpu>Apple A9</cpu>
+      <gpu>Unknown</gpu>
+      <memory>16</memory>
+      <external-memory>0</external-memory>
+      <brand>Apple</brand>
+      <front-camera>5.0</front-camera>
+      <behind-camera>12.0</behind-camera>
+      <os>iOS 9.0</os>
+      <battery>1715</battery>
+      <sim-type>Nano</sim-type>
+      <warranty-time>12</warranty-time>
+    </property>
+    <pictures>
+      <picture>http://www.cell-phonecover.com/wp-content/uploads/2015/02/cheap-metal-white-glass-screen-protector-iphone-6-and-6-plus-IPASP03_2.jpg</picture>
+      <picture>http://img03.taobaocdn.com/imgextra/i3/1969765687/TB2LORWbpXXXXaFXpXXXXXXXXXX_!!1969765687.jpg</picture>
+      <picture>http://img02.taobaocdn.com/imgextra/i2/1969765687/TB2Xjx7bpXXXXX6XXXXXXXXXXXX_!!1969765687.jpg</picture>
+    </pictures>
+    <clear>0</clear>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Samsung Galaxy Note 5 Platinum Gold</name>
+    <start-price>600</start-price>
+    <current-price>600</current-price>
+    <start-date>15-10-2015 11:00:00 PM</start-date>
+    <end-date>20-10-2015 11:00:00 PM</end-date>
+    <close-data>20-10-2015 11:00:00 PM</close-data>
+    <rating>4</rating>
+    <bids>0</bids>
+    <property>
+      <screen-size>5.7</screen-size>
+      <resolution>1440 x 2560</resolution>
+      <screen-quality>Quad HD</screen-quality>
+      <ram>4</ram>
+      <cpu>Exynos 7420</cpu>
+      <gpu>Mali-T760MP8</gpu>
+      <memory>32</memory>
+      <external-memory>0</external-memory>
+      <brand>Samsung</brand>
+      <front-camera>5.0</front-camera>
+      <behind-camera>16.0</behind-camera>
+      <os>Android 5.1.1 (Lollipop)</os>
+      <battery>3000</battery>
+      <sim-type>Nano</sim-type>
+      <warranty-time>12</warranty-time>
+    </property>
+    <pictures>
+      <picture>http://www.samsung.com/global/galaxy/main/images/galaxy-note5_overview_kv.jpg</picture>
+      <picture>http://blog.dk.sg/wp-content/uploads/2015/08/DSC00608.jpg</picture>
+      <picture>http://abbelectronics.us/mobile%20listing/images/Samsung%20Galaxy%20Note%205/5.JPG</picture>
+    </pictures>
+    <clear>0</clear>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Samsung Galaxy S6 Edge Plus Blue Cyan</name>
+    <start-price>550</start-price>
+    <current-price>550</current-price>
+    <start-date>20-10-2015 11:00:00 PM</start-date>
+    <end-date>25-10-2015 11:00:00 PM</end-date>
+    <close-data>25-10-2015 11:00:00 PM</close-data>
+    <rating>5</rating>
+    <bids>0</bids>
+    <property>
+      <screen-size>5.7</screen-size>
+      <resolution>1440 x 2560</resolution>
+      <screen-quality>Quad HD</screen-quality>
+      <ram>4</ram>
+      <cpu>Exynos 7420</cpu>
+      <gpu>Mali-T760</gpu>
+      <memory>32</memory>
+      <external-memory>0</external-memory>
+      <brand>Samsung</brand>
+      <front-camera>5.0</front-camera>
+      <behind-camera>16.0</behind-camera>
+      <os>Android 5.1 Lollipop</os>
+      <battery>3000</battery>
+      <sim-type>Nano</sim-type>
+      <warranty-time>12</warranty-time>
+    </property>
+    <pictures>
+      <picture>http://a9.vietbao.vn/images/vn999/130/2015/04/20150419-nguoi-dung-mon-moi-cho-ban-galaxy-s6-mau-hiem-1.jpg
+</picture>
+      <picture>http://2.bp.blogspot.com/-iKY_n6gypZs/VVq2oakQaaI/AAAAAAAAC4I/9CHZQ11i1Pk/s640/galaxy-s6-mau-xanh-cyan-va-ngoc-luc-bao.jpg</picture>
+      <picture>http://blogs-images.forbes.com/ewanspence/files/2015/03/samsung_s6_edge_feature.jpg</picture>
+    </pictures>
+    <clear>0</clear>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Samsung Galaxy A8</name>
+    <start-price>200</start-price>
+    <current-price>200</current-price>
+    <start-date>25-10-2015 11:00:00 PM</start-date>
+    <end-date>29-10-2015 11:00:00 PM</end-date>
+    <close-data>30-10-2015 11:00:00 PM</close-data>
+    <rating>3</rating>
+    <bids>0</bids>
+    <property>
+      <screen-size>5.7</screen-size>
+      <resolution>1080 x 1920</resolution>
+      <screen-quality>Full HD</screen-quality>
+      <ram>2</ram>
+      <cpu>Exynos 5430</cpu>
+      <gpu>Adreno 405</gpu>
+      <memory>32</memory>
+      <external-memory>128</external-memory>
+      <brand>Samsung</brand>
+      <front-camera>5.0</front-camera>
+      <behind-camera>16.0</behind-camera>
+      <os>Android 5.1 Lollipop</os>
+      <battery>3050</battery>
+      <sim-type>Nano</sim-type>
+      <warranty-time>12</warranty-time>
+    </property>
+    <pictures>
+      <picture>http://hc.com.vn/media/wysiwyg/Dien-thoai/dtdd-samsung-galaxy-a8-sm-a800.4.jpg</picture>
+      <picture>http://images.technewstoday.com.s3.amazonaws.com/tnt/samsung-galaxy-a8-is-its-thinnest-yet-but-not-for-you-right-now.jpg
+</picture>
+      <picture>http://www.techopinio.com/wp-content/uploads/2015/08/Samsung-Galaxy-A8-Release-Rumors-in-Europe-and-Asia-this-Summer.jpg</picture>
+    </pictures>
+    <clear>0</clear>
+  </product>
+</products>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customers>
+  <customer id="1" email="hieunguyen18091807@gmail.com" name="Hiếu Nguyễn" />
+  <customer id="2" email="abc@example.com" name="a" />
+  <customer id="3" email="dsad@dasd.com" name="asdas" />
+  <customer id="4" email="123@gmail.com" name="abc" />
+</customers>

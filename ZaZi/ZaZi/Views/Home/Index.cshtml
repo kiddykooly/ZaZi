@@ -1,0 +1,335 @@
+﻿@model ProductModel
+@using ZaZi.Models;
+@{
+    ViewBag.Title = "Za Zi";
+    var proper = Model.property;
+    var nextPrice = Model.CurrentPrice + 10;
+}
+
+<div class="center-align" style="margin-top: -20px;">
+    <h4 class="header">
+        <i class="material-icons">phone_iphone</i>
+        @Model.Name
+    </h4>
+</div>
+<div class="body">
+    <div class="content">
+        <div class="row">
+            <div class="col s12 m10 offset-m1 l7">
+                <div class="row">
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="card-image">
+                            <img class="materialboxed" src="@Model.pictures[0]" />
+                        </div>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col s12">
+                                    <ul class="tabs">
+                                        <li class="tab col s3"><a class="active" href="#test1" style="color: #33691e; text-transform: none; font-size: 12px;">Giá đấu hiện tại</a></li>
+                                        <li class="tab col s3"><a href="#test2" style="color: #33691e; text-transform: none; font-size: 12px;">Thông số kĩ thuật</a></li>
+                                    </ul>
+                                </div>
+                                @* Giá đấu hiện tại *@
+                                <div id="test1" class="col s12">
+                                    <div class="row">
+                                        <div class="col s12 m7 l7 col-padding-left">
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">event</i>Ngày bắt đầu: @String.Format("{0:dd/MM/yyyy hh:mm:ss tt}", Model.StartDate)</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">event</i>Ngày kết thúc: <span id="dl">@String.Format("{0:dd/MM/yyyy hh:mm:ss tt}", Model.EndDate)</span></a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">access_time</i><span id="timers"></span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m5 l5  col-padding-left">
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">attach_money</i>Giá khởi điểm: @Model.StartPrice$</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">attach_money</i>Giá hiện tại: @Model.CurrentPrice$</a>
+                                            </div>
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons left">directions_run</i>Số người đã tham gia: <span id="current-bet">@ZaZi.MvcApplication.currentUser</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 col-padding-left">
+                                            <div class="row">
+                                                <a class="z-depth-0 waves-effect waves-light btn special-button-style col s12"><i class="material-icons left">accessibility</i>Thanh niên đang dẫn đầu về độ nghèo: <strong>@ZaZi.MvcApplication.WinnerName</strong></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            <div class="row">
+                                                <span class="col s12">Bạn có muốn khô máu với anh ấy?</span>
+                                                <div class="divider col s12" style="margin: 10px 0 0 0"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s12">
+                                            @using (Html.BeginForm("InsertBid", "Home", FormMethod.Post, new { @id = "bid-form" }))
+                                            {
+                                                @Html.AntiForgeryToken()
+                                                <div class="row">
+                                                    @if (Session["id"] != null)
+                                                    {
+                                                        <div class="input-field col s12 m6 l6">
+                                                            <i class="material-icons prefix">account_circle</i>
+                                                            <input name="Name" placeholder="Nguyễn Văn A" type="text" class="validate" value="@Session["name"]" readonly>
+                                                            <label for="name">Tên của bạn</label>
+                                                            <span class="sp-error" data-for="name"></span>
+                                                        </div>
+                                                        <div class="input-field col s12 m6 l6">
+                                                            <i class="material-icons prefix">email</i>
+                                                            <input name="Email" placeholder="youremail@example.com" type="email" class="validate" value="@Session["mail"]" readonly>
+                                                            <label for="email">Địa chỉ email</label>
+                                                            <span class="sp-error" data-for="email"></span>
+                                                        </div>
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="input-field col s12 m6 l6">
+                                                            <i class="material-icons prefix">account_circle</i>
+                                                            <input name="Name" placeholder="Nguyễn Văn A" id="name" type="text" class="validate">
+                                                            <label for="name">Tên của bạn</label>
+                                                            <span class="sp-error" data-for="name"></span>
+                                                        </div>
+                                                        <div class="input-field col s12 m6 l6">
+                                                            <i class="material-icons prefix">email</i>
+                                                            <input name="Email" placeholder="youremail@example.com" id="email" type="email" class="validate">
+                                                            <label for="email">Địa chỉ email</label>
+                                                            <span class="sp-error" data-for="email"></span>
+                                                        </div>
+                                                    }
+                                                </div>
+                                                <div class="row">
+                                                    <div class="input-field col s12 m6 l6">
+                                                        <i class="material-icons prefix">attach_money</i>
+                                                        <input name="BidPrice" placeholder="10000$" id="price" type="number" class="validate" step="10" min="@nextPrice">
+                                                        <label for="price">Giá đấu (đơn vị $)</label>
+                                                        <span class="sp-error" data-for="price"></span>
+                                                    </div>
+                                                    @if (Session["id"] == null)
+                                                    {
+                                                    <div class="input-field col s12 m6 l6">
+                                                        <input name="remember" type="checkbox" id="remeber-me" value="remember" />
+                                                        <label for="remeber-me">Ghi nhớ thông tin cá nhân</label>
+                                                    </div>
+                                                    }
+                                                </div>
+                                                @Html.HiddenFor(x => x.Id)
+                                                <div class="row">
+                                                    <button type="submit" class="z-depth-0 waves-effect waves-light btn col s12 bid-button-style">Chơi khô máu</button>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+
+                                </div>
+                                @* Thông số kĩ thuật *@
+                                <div id="test2" class="col s12">
+                                    <div class="row">
+                                        <table class="highlight responsive-table bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Thông số cơ bản</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr>
+                                                    <td>Màn hình:</td>
+                                                    <td>@proper.ScreenSize inch (@proper.Resolution pixels)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Camera:</td>
+                                                    <td>Chính: @proper.BehindCamera MP, Phụ: @proper.FrontCamera MP</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bộ nhớ trong:</td>
+                                                    <td>@proper.Memory GB</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Hệ điều hành:</td>
+                                                    <td>@proper.OS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Chipset:</td>
+                                                    <td>@proper.CPU</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="row">
+                                        <a href="~/product?id=@Model.Id" class="z-depth-0 waves-effect waves-light btn button-style col s12"><i class="material-icons right">expand_more</i>Xem thêm thông tin chi tiết</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m10 offset-m1 l4">
+                <div class="row">
+                    <div class="card" style="margin-top: 20px">
+                        <div class="card-image">
+                            <img src="~/Content/image/fb-banner.jpg">
+                            <span class="card-title">Chém vài nhát đi các bác.</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="fb-comments" data-href="http://localhost:51077/" data-numposts="5" data-width="100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fb-root"></div>
+<style>
+    .input-field input {
+        margin-bottom: 10px !important;
+    }
+
+    .sp-error {
+        color: red;
+        font-size: 12px;
+        position: relative;
+        margin-left: 45px;
+    }
+
+    .bid-button-style {
+        background-color: #f44336;
+        border-radius: 0;
+    }
+
+        .bid-button-style:hover {
+            background-color: #d32f2f;
+        }
+
+    .indicator {
+        background-color: #00c853 !important;
+    }
+
+    #test1 {
+        margin-top: 20px;
+        padding-top: 20px;
+        border: 1px solid #cfd8dc;
+    }
+
+    .col-padding-left {
+        padding-left: 0px !important;
+    }
+
+    .col-padding-right {
+        padding-right: 0px !important;
+    }
+
+    .button-style {
+        text-transform: none;
+        font-size: 14px;
+        border-radius: 0px;
+        border: solid 1px #00e676;
+        background-color: white;
+        color: #00e676;
+    }
+
+        .button-style:hover {
+            color: white;
+            background-color: #00e676;
+        }
+
+    .special-button-style {
+        background-color: #00e676;
+        text-transform: none;
+        font-size: 14px;
+        border-radius: 0px;
+    }
+
+        .special-button-style:hover {
+            background-color: #2e7d32;
+        }
+
+    .body {
+        font-family: 'Open Sans';
+        background-color: #e0e0e0;
+    }
+
+    .content {
+        padding-top: 20px;
+    }
+
+    .header {
+        font-family: "Open Sans";
+    }
+</style>
+
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/validate.js"></script>
+<script>
+    $(document).ready(function () {
+        bidvalidate();
+    });
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=851845374906848";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // countdown timer
+    $(document).ready(function () {
+        //var tim;
+        //var dl = $("#dl").text();
+        //var deadline = new Date($("#dl").text())
+        //var dead;
+        var deadline = new Date('@Model.EndDate.Year', '@Model.EndDate.Month', '@Model.EndDate.Day', '@Model.EndDate.Hour', '@Model.EndDate.Minute', '@Model.EndDate.Second')
+        setInterval(function () {
+            //var f = new Date();
+            var day = new Date();
+            var dayleft = deadline.getDate() - day.getDate();
+            var hourleft = deadline.getHours() - day.getHours()
+            if (hourleft < 0) {
+                dayleft -= 1;
+                hourleft += 24;
+            }
+            var minuteleft = deadline.getMinutes() - day.getMinutes();
+            if (minuteleft < 0) {
+                minuteleft += 60;
+                hourleft -= 1;
+                if (hourleft < 0) {
+                    dayleft -= 1;
+                    hourleft += 24;
+                }
+            }
+            var secleft = deadline.getSeconds() - day.getSeconds();
+            if (secleft < 0) {
+                secleft += 60
+                minuteleft -= 1;
+                if (minuteleft < 0) {
+                    hourleft -= 1;
+                    minuteleft += 60;
+                    if (hourleft < 0) {
+                        dayleft -= 1;
+                        hourleft += 24;
+                    }
+                }
+            }
+            if (dayleft < 0) {
+                location.reload();
+            }
+            //$("#timers").html(dayleft+"d:"+hourleft+"h:"+minuteleft+"m:"+secleft+"s");
+            //var timeleft = dayleft + "d:" + hourleft + "h:" + minuteleft + "m:" + secleft + "s";
+            $("#timers").html("Thời gian còn lại: " + dayleft + "d:" + hourleft + "h:" + minuteleft + "m:" + secleft + "s");
+            //$("#timers").html(testing.getHours);
+            //call $.ajax here
+        }, 1000); //5 seconds
+    });
+</script>

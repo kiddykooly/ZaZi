@@ -1,0 +1,172 @@
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ZaZi.dll.config
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ZaZi.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ZaZi.pdb
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Antlr3.Runtime.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.Core.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\EntityFramework.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Data.Edm.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Data.OData.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Newtonsoft.Json.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Net.Http.Formatting.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Spatial.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Helpers.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.OData.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.WebHost.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Mvc.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Optimization.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Razor.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.Razor.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\WebGrease.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\WebMatrix.Data.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\WebMatrix.WebData.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\EntityFramework.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Newtonsoft.Json.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Net.Http.Formatting.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Helpers.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.WebHost.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Mvc.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Razor.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.WebPages.Razor.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\WebMatrix.Data.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\WebMatrix.WebData.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.Core.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Web.Http.OData.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Data.Edm.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\Microsoft.Data.OData.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\System.Spatial.xml
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\de\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\es\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\fr\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\it\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ja\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ko\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\ru\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\obj\Debug\ZaZi.dll
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\obj\Debug\ZaZi.pdb
+C:\Users\kiddy_000\Documents\Visual Studio 2013\Projects\ZaZi\ZaZi\obj\Debug\ZaZi.csprojResolveAssemblyReference.cache
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ZaZi.dll.config
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ZaZi.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ZaZi.pdb
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Antlr3.Runtime.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.Core.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\EntityFramework.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Data.Edm.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Data.OData.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Newtonsoft.Json.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Net.Http.Formatting.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Spatial.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Helpers.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.OData.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.WebHost.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Mvc.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Optimization.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Razor.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.Razor.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\WebGrease.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\WebMatrix.Data.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\WebMatrix.WebData.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\EntityFramework.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Newtonsoft.Json.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Net.Http.Formatting.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Helpers.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.WebHost.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Mvc.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Razor.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.WebPages.Razor.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\WebMatrix.Data.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\WebMatrix.WebData.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.Core.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Web.Http.OData.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Data.Edm.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\Microsoft.Data.OData.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\System.Spatial.xml
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\de\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\es\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\fr\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\it\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ja\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ko\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\ru\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\obj\Debug\ZaZi.dll
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\obj\Debug\ZaZi.pdb
+C:\Users\kiddy_000\Desktop\ZaZi\ZaZi\obj\Debug\ZaZi.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bids>
+  <bid id="1" customerid="1" productid="0" bidprice="520" time="09-10-2015 08:14:25 PM" />
+  <bid id="2" customerid="2" productid="0" bidprice="530" time="09-10-2015 08:16:16 PM" />
+  <bid id="3" customerid="3" productid="0" bidprice="540" time="09-10-2015 08:16:26 PM" />
+  <bid id="4" customerid="1" productid="1" bidprice="810" time="14-10-2015 09:53:15 PM" />
+  <bid id="5" customerid="4" productid="1" bidprice="850" time="14-10-2015 09:53:51 PM" />
+</bids>

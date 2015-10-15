@@ -1,0 +1,56 @@
+﻿@model List<ZaZi.Models.admin>
+@{
+    ViewBag.Title = "Recent Auctions";
+}
+
+@if (Model != null)
+{
+     foreach(var item in Model)
+        {
+            <div class="row">
+                <div class="col s12 m8 offset-m2">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <span>Thời gian kết thúc: @String.Format("{0:dd/MM/yyyy hh:mm:ss tt}", item.Time)</span>
+                            <img class="activator" src="@item.Picture">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">@item.Name<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">@item.Name<i class="material-icons right">close</i></span>
+                            <p>Mã sản phẩm: @item.ProductId</p>
+                            <p>Thời gian kết thúc: @String.Format("{0:dd/MM/yyyy hh:mm:ss tt}", item.Time)</p>
+                            <p>Giá thắng cuộc: @item.Price</p>
+                            <p>Mã người thắng: @item.WinnerId</p>
+                            <p>Tên người thắng: @item.Winner</p>
+                            <p>Email người thắng: @item.Mail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        }   
+}
+else
+{
+    <h2>Just relax, there's no job for you ! Go weed</h2>
+}
+<style>
+    .admin {
+        padding-left: 120px;
+        background-color: white;
+        font-size: 16px;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('.collapsible').collapsible({
+            accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+        });
+    });
+</script>
+
+    
+    
